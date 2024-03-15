@@ -1,5 +1,10 @@
 # COMP3015-Coursework1
 
+## Project Development Environment
+
+- **Visual Studio Version:** [17.1.2]
+- **Operating System:** [Windows 10 Home Chinese Version]
+
 ## 1. How to Control
 
 To run the program, double-click on the executable file (exe). Ensure that complete documentation, including images and OBJ file documentation, is available. Once the program is running, you can use the keyboard to navigate the 3D room and interact with it.
