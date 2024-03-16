@@ -20,27 +20,23 @@ Users can control actions using the following keys:
 - **1**: TV displays the developer's signature.
 - **2**: TV displays the TV interface.
 
-## 2. How it Works and Details
-  
-- opengl.cpp: This is the main program file responsible for several crucial tasks. It handles the initialization of GLFW and GLAD, ensuring that the OpenGL environment is set up correctly. Additionally, it takes charge of loading texture images and OBJ models. Furthermore, it kickstarts the primary loop responsible for user interaction and real-time rendering.
+1. **How does it work?**
+   - The code implements a basic OpenGL scene rendering program, which includes functionalities such as loading models, setting up lighting, rendering objects, and a skybox.
+   - The `SceneBasic_Uniform` class serves as the main control class for the entire scene, containing methods for initializing the scene, compiling shader programs, updating the scene, rendering the scene, and handling window resize events.
+   - The `loadTexture` function loads texture images, while the `loadCubemap` function loads cube maps for the skybox textures.
+   - The `initScene` method is called during program initialization to set up the initial state of the scene, including compiling shader programs, generating and binding buffer objects, loading textures, etc.
+   - The `update` method updates the scene, such as updating rotation angles.
+   - The `processKey` method handles keyboard input, such as controlling camera movement or starting/stopping rotation.
+   - The `render` method performs the actual rendering of the scene, including setting lighting properties, projection matrix, view matrix, drawing models, and the skybox.
+   - The `resize` method handles window resize events by resizing the viewport.
 
-- Utils.cpp: In this file, you'll find the Utils class, which plays a pivotal role in the project. Its responsibilities include shader loading, compiling, and linking. Moreover, it handles the critical task of texture loading, ensuring that textures are applied accurately.
+2. **How does your code fit together and how should a programmer navigate it?**
+   - The main program entry point is in the `main` function, where a `SceneBasic_Uniform` object is created and the scene is run.
+   - The `SceneBasic_Uniform` class encapsulates the rendering logic of the entire scene, with its methods organized into functional modules for easy understanding and maintenance.
+   - Programmers can navigate through the various methods of the `SceneBasic_Uniform` class to understand the rendering flow of the entire scene, such as initializing the scene in the `initScene` method, updating the scene in the `update` method, and rendering the scene in the `render` method.
+   - Shader program loading and compilation are handled in the `compile` method, where developers can inspect the specific implementations to understand how shader programs work.
+   - By examining the method call relationships and parameter passing in each method, developers can gain a clear understanding of how the entire rendering process is accomplished, allowing for necessary debugging and modifications.
 
-- Sphere.cpp: This file defines two essential classes, namely Box3D and Sphere. These classes are responsible for managing 3D vertices and creating box-shaped objects. These objects are specifically designed for seamless integration into OpenGL's Vertex Buffer Object (VBO), facilitating efficient rendering.
-
-- ImportedModel.cpp: Within this file, you'll discover the ImportedModel and ModelImporter classes. These classes serve a crucial function by enabling the reading of OBJ files and subsequently loading them into OpenGL's VBO. This process is essential for incorporating external 3D models into the project seamlessly.
-
-## 3. Idea
-
-- The 3D room project involves the download and integration of pre-existing OBJ models, such as tables and chairs, from online sources. These models are then enhanced by applying carefully selected textures, resulting in a visually appealing environment. The initial inspiration for this project came from a 3D room demonstration by a teacher, which served as a creative spark.
-
-- One of the standout features of the Snail Dwelling project is the TV display, which showcases the author's unique signature rendering. This not only adds a personal touch but also highlights the project's individuality. Additionally, the project includes a door mechanism, allowing users to open and close it, adding a layer of realism to the virtual room.
-
-- While the project has come a long way, there is still room for aesthetic improvements when compared to other 3D environments. Continuous refinement is an ongoing goal, with opportunities for further enhancement. The journey began with downloading Visual Studio 2022, followed by the meticulous setup of the OpenGL environment, incorporating essential libraries such as GLFW, GLAD, and glm. Furthermore, 3D models and high-quality textures were acquired and integrated into the scene.
-
-- The development process included creating windows, constructing detailed room layouts, loading intricate 3D models, and achieving realistic rendering of both the room and its contents. Finally, interactive elements were implemented, allowing users to engage with the virtual environment.
-
-- In summary, the 3D room project blends creativity, technical skill, and a commitment to continuous improvement, resulting in a captivating digital experience.
 
 ## Video Link
 
