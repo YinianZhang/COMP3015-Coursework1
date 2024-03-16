@@ -5,7 +5,7 @@
 - **Visual Studio Version:** [17.1.2]
 - **Operating System:** [Windows 10 Home Chinese Version]
 
-## 1. How to Control
+## 1. How to Control?
 
 To run the program, double-click on the executable file (exe). Ensure that complete documentation, including images and OBJ file documentation, is available. Once the program is running, you can use the keyboard to navigate and interact with the scenarios.
 
@@ -16,7 +16,7 @@ Users can control actions using the following keys:
 - **E**: The viewpoint stops rotating.
 
 
-1. **How does it work?**
+## 2. How does it work?
    - The code implements a basic OpenGL scene rendering program, which includes functionalities such as loading models, setting up lighting, rendering objects, and a skybox.
    - The `SceneBasic_Uniform` class serves as the main control class for the entire scene, containing methods for initializing the scene, compiling shader programs, updating the scene, rendering the scene, and handling window resize events.
    - The `loadTexture` function loads texture images, while the `loadCubemap` function loads cube maps for the skybox textures.
@@ -26,7 +26,7 @@ Users can control actions using the following keys:
    - The `render` method performs the actual rendering of the scene, including setting lighting properties, projection matrix, view matrix, drawing models, and the skybox.
    - The `resize` method handles window resize events by resizing the viewport.
 
-2. **How does your code fit together and how should a programmer navigate it?**
+## 3. How does your code fit together and how should a programmer navigate it?
    - The main program entry point is in the `main` function, where a `SceneBasic_Uniform` object is created and the scene is run.
    - The `SceneBasic_Uniform` class encapsulates the rendering logic of the entire scene, with its methods organized into functional modules for easy understanding and maintenance.
    - Programmers can navigate through the various methods of the `SceneBasic_Uniform` class to understand the rendering flow of the entire scene, such as initializing the scene in the `initScene` method, updating the scene in the `update` method, and rendering the scene in the `render` method.
