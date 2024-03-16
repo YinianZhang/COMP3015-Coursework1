@@ -1,4 +1,0 @@
-﻿  scenebasic_uniform.cpp
-C:\Users\ASUS\Desktop\Project_Template-mine\scenebasic_uniform.cpp(328,18): warning C4305: “+=”: 从“double”到“float”截断
-C:\Users\ASUS\Desktop\Project_Template-mine\scenebasic_uniform.cpp(334,28): warning C4305: “初始化”: 从“double”到“float”截断
-  Project_Template.vcxproj -> C:\Users\ASUS\Desktop\Project_Template-mine\x64\Debug\Project_Template.exe
