@@ -11,14 +11,10 @@ To run the program, double-click on the executable file (exe). Ensure that compl
 
 Users can control actions using the following keys:
 
-- **A, D, S, W**: Move the viewer left, right, backward, and forward, respectively.
-- **Z**: Move the viewer down.
-- **X**: Move the viewer up.
-- **Q**: Reset the viewer's position and orientation.
-- **V**: Open the door.
-- **C**: Close the door.
-- **1**: TV displays the developer's signature.
-- **2**: TV displays the TV interface.
+- **A, D, S, W**: The viewpoint moves on left, right, backward, and forward, respectively.
+- **Q**: The viewpoint begins to rotate.
+- **E**: The viewpoint stops rotating.
+
 
 1. **How does it work?**
    - The code implements a basic OpenGL scene rendering program, which includes functionalities such as loading models, setting up lighting, rendering objects, and a skybox.
