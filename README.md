@@ -7,7 +7,7 @@
 
 ## 1. How to Control
 
-To run the program, double-click on the executable file (exe). Ensure that complete documentation, including images and OBJ file documentation, is available. Once the program is running, you can use the keyboard to navigate the 3D room and interact with it.
+To run the program, double-click on the executable file (exe). Ensure that complete documentation, including images and OBJ file documentation, is available. Once the program is running, you can use the keyboard to navigate and interact with the scenarios.
 
 Users can control actions using the following keys:
 
