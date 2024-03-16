@@ -36,8 +36,8 @@ Users can control actions using the following keys:
 
 ## Video Link
 
-https://youtu.be/y8KYysSkAFM
+https://
 
 ## Project Git Repository
 
-https://github.com/YinianZhang/COMP3015-Coursework1/tree/main
+https://github.com/YinianZhang/COMP3015-Coursework1
