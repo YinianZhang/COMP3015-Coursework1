@@ -13,7 +13,7 @@ Users can control actions using the following keys:
 
 - **A, D, S, W**: The viewpoint moves on left, right, backward, and forward, respectively.
 - **Q**: The viewpoint begins to rotate.
-- **E**: The viewpoint stops rotating.
+- **E**: The viewpoint stops to rotate.
 
 
 ## 2. How does it work?
