@@ -36,7 +36,7 @@ Users can control actions using the following keys:
 
 ## Video Link
 
-https://youtu.be/PmHJaeX9k40
+https://youtu.be/PYJDEDQ-qzg
 
 ## Project Git Repository
 
